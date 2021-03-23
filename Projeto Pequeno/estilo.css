@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: thistle;
+}
+
+.app {
+    background-color: tomato;
+    border: solid;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+.conteudo-formulario {
+    display: inline-block;
+}
+button {
+    padding: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    font-style: italic ;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+input {
+    height: 100px;
+    border-radius: 8px;
+    font-style: italic ;
+    font-weight: bold;
+    width: 100%;
+}
+
+#resultado-moedas {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Reais para centavos</title>
+</head>
+<body>
+    <div id="app" class="app">
+        <div class="conteudo-titulo">
+            <h1>Reais para centavos</h1>
+        </div>
+        <div class="conteudo-formulario">
+            <form>
+                <input type="number" min="0" step="0.01" id="input_real" placeholder="Digite o valor em reais">
+                <button type="submit" class="botao-app"> Converter</button>
+            </form>    
+        </div>
+        <div class="conteudo-resultado">
+            <p>
+                Centavos (total):
+                <span id="resultado"></span>
+            </p>
+        </div>
+        <div class="conteudo-resultado">
+            <p>
+                Quantidade:
+                <span id="resultado_moedas"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+</html>
