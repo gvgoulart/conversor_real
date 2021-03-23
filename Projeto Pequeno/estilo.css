@@ -14,7 +14,7 @@ body {
 }
 
 .app {
-    background-color: tomato;
+    background-color: white;
     border: solid;
     border-radius: 8px;
     width: 300px;
@@ -23,18 +23,21 @@ body {
 
 h1 {
     text-align: center;
+    font-weight: bold;
+    margin-bottom: dotted;
 }
 .conteudo-formulario {
     display: inline-block;
+    text-align: center;
 }
 button {
     padding: 40px;
-    background-color: green;
-    color: white;
+    background-color: thistle;
     border-radius: 8px;
     font-style: italic ;
     font-weight: bold;
     width: 100%;
+    border-style: none;
 }
 
 
@@ -44,6 +47,7 @@ input {
     font-style: italic ;
     font-weight: bold;
     width: 100%;
+    border-style: none;
 }
 
 #resultado-moedas {
